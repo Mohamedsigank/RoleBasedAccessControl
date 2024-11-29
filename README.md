@@ -1,6 +1,3 @@
-To make the headings bold in your README file, you can use Markdown syntax. Here's how you can structure your README with bold headings:
-
-```markdown
 # **Role-Based Access Control (RBAC) System**
 
 ## **Overview**
@@ -51,23 +48,19 @@ This project demonstrates the implementation of Authentication, Authorization, a
 ```bash
 git clone https://github.com/yourusername/rbac-system.git
 cd rbac-system
-```
-
-### **Create a virtual environment and install dependencies:**
-```bash
+Create a virtual environment and install dependencies:
+bash
+Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
-```
-
-### **Run the application:**
-```bash
+Run the application:
+bash
+Copy code
 flask run
-```
-Open the application in your browser at [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
-```
+Open the application in your browser at http://127.0.0.1:5000/
 
-In the above Markdown:
-- `#` and `##` are used to create headers, which will be bold by default.
-- **Bold text** can also be applied to specific words using `**` around the text, like `**Role-Based Access Control (RBAC) System**`.
+vbnet
+Copy code
+
 
